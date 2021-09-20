@@ -1,0 +1,348 @@
+.nav {
+    display: flex;
+    background-color: #3D3C3C;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+}
+#search {
+    height: 43px; 
+    width: 235px; 
+    border: solid black 2pt;
+}
+
+.position {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-family: Arial;
+    color: white;
+}
+
+.absolute {
+    margin-top: 15px;
+    font-family: Arial;
+    color: #F89609;
+}
+
+.join {
+    display: inline-block;
+    margin-left: 505px;
+    background-color: #F89609;
+    font-family: Arial;
+    color: black;
+    height: 30px;
+    width: 65px;
+    border: solid black 2pt;
+    margin-top: 15px;
+    font-size: 13pt;
+    box-shadow: black 4px 4px;
+    margin-right: 15px;
+}
+
+.login {
+    background-color: #004E98;
+    font-family: Arial;
+    color: white;
+    height: 30px;
+    width: 75px;
+    border: solid black 2pt;
+    margin-top: 15px;
+    font-size: 13pt;
+    box-shadow: black 4px 4px;
+}
+
+.container-two {
+    display: flex;
+    margin: auto;
+    background-color: #F9D095;
+    width: 70%;
+    height: 180px;
+}
+
+#search-bar {
+    position: absolute;
+    top: 120px;
+    left: 255px;
+}
+
+.go {
+    background-color: #004E98;
+    font-family: Arial;
+    color: white;
+    height: 40px;
+    width: 43px;
+    border: solid black 2pt;
+    font-size: 13pt;
+    box-shadow: black 4px 4px;
+    position: absolute;
+    margin-left: 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 331px;
+    background-color: #F9D095;
+    width: 60%;
+    height: 150px;
+    align-items: center;
+}
+.altImg {
+    border: solid black 3pt;
+    width: 80px; 
+    height: 80px;
+}
+
+.octocats01 {
+    position: absolute;
+    top: 170px;
+    left: 615px;
+    font-family: Arial;
+    font-size: 16pt;
+}
+.octocats02 {
+    position: absolute;
+    top: 170px;
+    left: 735px;
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+.octocats03 {
+    position: absolute;
+    top: 170px;
+    left: 880px;
+    font-family: Arial;
+    font-size: 16pt;
+}
+.octocats04 {
+    position: absolute;
+    top: 170px;
+    left: 1035px;
+    font-family: Arial;
+    font-size: 16pt;
+}
+
+.container-one {
+    display: flex;
+    margin: auto;
+    background-color: #DDDDDD;
+    margin-left: 213px;
+    margin-top: 30px;
+    width: 580px;
+    height: 500px;
+}
+
+.title {
+    display: flex;
+    margin: auto;
+    background-color: #DDDDDD;
+    margin-top: 0px;
+    width: 580px;
+    height: 50px;
+    justify-content: center;
+}
+
+.daily-cat {
+    font-family: Arial;
+    color: #004E98;
+    text-align: center;
+    font-size: 19pt;
+}
+
+.prof01 {
+    position: absolute;
+    top: 350px;
+    border: solid black 2pt;
+    height: 300px; 
+    width: 500px;
+}
+
+.prof-title {
+        position: absolute;
+        top: 650px;
+        left: 260px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 14pt;
+}
+
+.author {
+    position: absolute;
+    top: 680px;
+    left: 260px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.username {
+    position: absolute;
+    top: 696px;
+    left: 285px;
+    font-family: Arial;
+    color: #004E98;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+.see-full {
+    position: absolute;
+    top: 730px;
+    left: 445px;
+    font-family: Arial;
+    color: #004E98;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: underline;
+}
+
+.like-count {
+        position: absolute;
+        top: 650px;
+        left: 740px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 14pt;
+}
+
+.recommended {
+    display: flex;
+    height: 25px;
+    width: 382px;
+    background-color: white;
+    border-bottom: solid #DDDDDD 2pt;
+    margin: auto;
+    margin-left: 825px;
+    margin-top: -500px;
+}
+
+.recommended-title {
+    font-family: Arial;
+    margin-top: 0px;
+}
+
+.recommended-content {
+    display: flex;
+    height: 500px;
+    width: 382px;
+    background-color: white;
+    margin: auto;
+    margin-left: 825px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.cat01 {
+    border: solid black 2pt;
+    height: 150px; 
+    width: 382px;
+}
+
+.cat02 {
+    position: absolute;
+    margin-top: 240px;
+    margin-right: 388px;
+    border: solid black 2pt;
+    height: 150px; 
+    width: 382px;
+
+}
+
+.small-title01 {
+        position: absolute;
+        margin-top: 180px;
+        margin-right: 300px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 14pt;
+}
+
+.small-title02 {
+    position: absolute;
+    margin-top: 417px;
+    margin-right: 276px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.author-two {
+        position: absolute;
+        margin-top: 205px;
+        margin-right: 360px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 12pt;
+}
+
+.username-two {
+    position: absolute;
+    top: 521px;
+    left: 860px;
+    font-family: Arial;
+    color: #004E98;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+.author-three {
+    position: absolute;
+    margin-top: 445px;
+    margin-right: 365px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.username-three {
+    position: absolute;
+    top: 762px;
+    left: 860px;
+    font-family: Arial;
+    color: #004E98;
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+.heart-two {
+    position: absolute;
+    top: 493px;
+    left: 1148px;
+}
+
+.like-count-two {
+        position: absolute;
+        top: 480px;
+        left: 1185px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 14pt;
+}
+
+.heart-three {
+    position: absolute;
+    top: 728px;
+    left: 1150px;
+}
+
+.like-count-three {
+        position: absolute;
+        top: 715px;
+        left: 1190px;
+        font-family: Arial;
+        color: black;
+        text-align: center;
+        font-size: 14pt;
+}
